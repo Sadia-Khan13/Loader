@@ -1,0 +1,22 @@
+.loader{
+    border-radius: 50%;
+    border: 2px solid rgb(241, 237, 229);
+    border-top: 2px solid black;
+    width: 60px;
+    height: 60px;
+    animation: circular 3s ease-in 0s infinite;
+}
+   
+
+@keyframes circular {
+    from{transform:rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 45vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+}
